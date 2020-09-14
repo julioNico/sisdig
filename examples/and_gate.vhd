@@ -1,5 +1,5 @@
 -- Disciplina: Sistemas Digitais
--- Exemplo de uma porta and
+-- Exemplo de lógica combinacionao de duas ands e uma or.
 -- Autor: Julio Nico Dantas dos Santos
 
 -- Bibliotecas e pacotes
