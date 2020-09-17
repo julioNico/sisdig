@@ -1,6 +1,8 @@
 -- Disciplina: Sistemas Digitais
 -- Exercício: 2 (componentes xor)    
 -- Autor: Julio Nico Dantas dos Santos 
+-- GitHub: https://github.com/julioNico
+
 
 --*********************************
 -- Abordagem ESTRUTURAL:
@@ -44,9 +46,23 @@ begin
 end architecture xor2_arch;
 
 
---*********************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--************************************************************
 --Abordagem de FLUXO DE DADOS ou Descrição a nível de porta:
---*********************************
+--************************************************************
 --Biblioteca
 library ieee;
 use ieee.std_logic_1164.all;
