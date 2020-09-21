@@ -1,8 +1,6 @@
 -- Disciplina: Sistemas Digitais
 
--- Exercício: Modificar o testbench para o comparador de igualdade de dois bits 
--- para que seja possível testar a saída para todas as combinações da entrada.
--- (do livro FPGA Prototyping by VHDL Examples: Xilinx Spartan-3 Version)
+-- Exercício: Modificar o testbench para o comparador de igualdade de dois bits, (retirado do livro FPGA Prototyping by VHDL Examples: Xilinx Spartan-3 Version), para que seja possível testar a saída para todas as combinações da entrada. 
 
 -- Autor: Julio Nico Dantas dos Santos 
 -- GitHub: https://github.com/julioNico
