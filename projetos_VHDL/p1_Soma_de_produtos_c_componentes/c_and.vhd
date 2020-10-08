@@ -4,12 +4,10 @@
 -- Autor: Julio Nico Dantas dos Santos
 
 -- Biblioteca
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
 
 -- Entidade
-
 entity c_and is 
 
 	port (
@@ -21,7 +19,6 @@ entity c_and is
 end entity c_and;
 
 -- Arquitetura
-
 architecture or_arch of c_and is
 
 begin

@@ -8,7 +8,6 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 -- Entidade
-
 entity Soma_de_produtos is
    Port ( 
 		IN1 : in  STD_LOGIC;
@@ -20,7 +19,6 @@ entity Soma_de_produtos is
 end entity Soma_de_produtos;
 
 -- Arquitetura
-
 architecture sp_arch of Soma_de_produtos is
 		
 		-- Componentes
