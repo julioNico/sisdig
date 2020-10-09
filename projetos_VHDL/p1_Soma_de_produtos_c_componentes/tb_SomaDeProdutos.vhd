@@ -25,16 +25,13 @@ ARCHITECTURE behavior OF tb_SomaDeProdutos IS
         );
     END COMPONENT;
     
-   --Inputs
+   --Signals
    signal IN1 : std_logic := '0';
    signal IN2 : std_logic := '0';
    signal IN3 : std_logic := '0';
    signal IN4 : std_logic := '0';
-
- 	--Outputs
    signal OUT1 : std_logic;
-   -- No clocks detected in port list. Replace <clock> below with 
-   -- appropriate port name 
+
   
 BEGIN
  
@@ -47,7 +44,7 @@ BEGIN
           OUT1 => OUT1
         );
 
-   -- Stimulus process
+   -- Bateria de testes
    Battery_Tests: process
    begin		
       -- test vector 1
