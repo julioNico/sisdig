@@ -54,6 +54,9 @@ BEGIN
    Battery_tests :process
    begin
 		inc <= '1'; 
+		dec <= '1';		
+		wait for clk_period;
+		inc <= '1'; 
 		dec <= '0';		
 		wait for 5us;
 		inc <= '0'; 
