@@ -1,7 +1,8 @@
 --------------------------------------------------------------------------------
 -- Disciplina: Sistemas Digitais
--- Circuito Contador Binário.
+-- Circuito Contador BCD de 3 Dígitos.
 -- Autor: Julio Nico Dantas dos Santos
+-- GITHUB: https://github.com/julioNico
 -------------------------------------------
 --------------------------------------------------------------------------------
 LIBRARY ieee;
