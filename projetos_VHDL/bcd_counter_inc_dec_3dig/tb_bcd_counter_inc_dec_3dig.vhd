@@ -1,7 +1,8 @@
 --------------------------------------------------------------------------------
 -- Disciplina: Sistemas Digitais
--- Circuito Contador Binário.
+-- Circuito Contador BCD de 3 Dígitos.
 -- Autor: Julio Nico Dantas dos Santos
+-- GITHUB: https://github.com/julioNico
 -------------------------------------------
 --------------------------------------------------------------------------------
 LIBRARY ieee;
@@ -37,12 +38,12 @@ BEGIN
 
    -- Clock process definitions
    clk_process :process
-    begin
-	 	clk <= '0';
-	 	wait for clk_period/2;
-	 	clk <= '1';
-	 	wait for clk_period/2;
-    end process;
+   begin
+		clk <= '0';
+		wait for clk_period/2;
+		clk <= '1';
+		wait for clk_period/2;
+   end process;
 
    --**************************
    -- reset
@@ -53,24 +54,18 @@ BEGIN
 	-- Bateria de testes
    Battery_tests :process
    begin
-		for i in 1 to 5 loop
-			wait until falling_edge(clk);
-		end loop;
+		inc <= '1'; 
+		dec <= '1';		
+		wait for clk_period;
 		inc <= '1'; 
 		dec <= '0';		
-		for i in 1 to 1000 loop
-			wait until falling_edge(clk);
-		end loop;
+		wait for 5us;
 		inc <= '0'; 
 		dec <= '0';		
-		for i in 1 to 1000 loop
-			wait until falling_edge(clk);
-		end loop;
+		wait for 5us;
 		inc <= '0'; 
 		dec <= '1';		
-		for i in 1 to 1000 loop
-			wait until falling_edge(clk);
-		end loop;
+		wait for 10us;
 
 		-- terminate simulation
       assert false
